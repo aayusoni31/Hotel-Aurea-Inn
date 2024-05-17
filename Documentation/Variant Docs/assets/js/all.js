@@ -12608,7 +12608,7 @@ $("[data-search]").each(function () {
   $("input, textarea").placeholder(),
   $("#interchangeMarkup").on("replace", function () {
     $.getScript(
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false&callback=initializeMaps"
+      "https://maps.googleapis.com/maps/api/js?key=#"
     );
   });
 var currentUrl = window.location.href;
